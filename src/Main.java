@@ -10,10 +10,9 @@ abstract class Display {
 }
 class User extends Display{
 
-    // Agar field bisa diakses, ubah
-    protected String username;
+    private String username;
 
-    protected String password;
+    private String password;
 
     protected UUID token;
 
