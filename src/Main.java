@@ -10,6 +10,7 @@ abstract class Display {
 }
 class User extends Display{
 
+    // Field
     private String username;
 
     private String password;
